@@ -1,5 +1,6 @@
 #ifndef SHELL_H
 #define SHELL_H
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -9,6 +10,7 @@
 #include <sys/wait.h>
 #include <sys/stat.h>
 #define TOK_DELIM " \t\r\n\v\a"
+
 /**
  * struct list_path - singly linked list
  * @dir: string - (malloc'ed string)
@@ -17,6 +19,7 @@
  * Description: singly linked list node structure
  * for directories of PATH
  */
+
 typedef struct list_path
 {
 	char *dir;
