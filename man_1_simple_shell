@@ -1,4 +1,4 @@
-H 1 "12 Apr 2020" "V 1.0" "hsh usage manual"
+.TH HSH 1 "12 Apr 2020" "V 1.0" "hsh usage manual"
 
 .SH NAME
 
@@ -141,3 +141,4 @@ Command error example:
 
 .SH AUTHOR
 Asuwe Richard and Kehinde Janet
+
