@@ -13,7 +13,7 @@ int main(int argc, char *argv[], char *env[])
 	data_of_program data_struct = {NULL}, *data = &data_struct;
 	char *prompt = "";
 
-	inicialize_data(data, argc, argv, env);
+	initialize_data(data, argc, argv, env);
 
 	signal(SIGINT, handle_ctrl_c);
 
@@ -47,7 +47,7 @@ void handle_ctrl_c(int opr UNUSED)
  * @argc: number of values received from the command line
  */
 
-void inicialize_data(data_of_program *data, int argc, char *argv[], char **env)
+void initialize_data(data_of_program *data, int argc, char *argv[], char **env)
 {
 	int i = 0;
 
